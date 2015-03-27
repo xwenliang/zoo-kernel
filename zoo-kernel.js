@@ -82,7 +82,9 @@ fis.require = function(){
         try {
             var pluginName = fis.require.prefixes[i] + '-' + name;
             names.push(pluginName);
+            //require.resolve取得pluginName模块的路径,检测是否存在pluginName这个模块
             path = require.resolve(pluginName);
+            //存在的话，尝试加载这个模块
             try {
                 return fis.require._cache[name] = require(pluginName);
             } catch (e){

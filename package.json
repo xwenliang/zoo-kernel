@@ -1,24 +1,25 @@
 {
   "name": "zoo-kernel",
-  "version": "1.0.0",
-  "description": "Little modify based on fis-kernel for fis-zoo",
-  "author": "zooble",
-  "license": "BSD",
-  "keywords": [
-    "fis-zoo",
-    "zoo-kernel"
-  ],
+  "version": "1.0.1",
+  "description": "Based on fis-kernel for fis-zoo",
+  "main": "zoo-kernel",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/xwenliang/zoo-kernel.git"
   },
+  "keywords": [
+    "fis-zoo",
+    "zoo-kernel"
+  ],
+  "author": {
+    "name": "zooble",
+    "email": "wenliang.web@gmail.com"
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
-  "main": "fis-kernel.js",
-  "scripts": {
-    "test": "mocha test/ut"
-  },
+  "license": "BSD",
   "dependencies": {
     "tar": "0.1.17",
     "iconv-lite": "0.2.10"

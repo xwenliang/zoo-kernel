@@ -98,7 +98,7 @@ fis.require = function(){
 fis.require._cache = {};
 
 //modified by zooble, add other prefixes
-fis.require.prefixes = ['fis', 'zoo'];
+fis.require.prefixes = ['zoo', 'fis'];
 
 //system config
 fis.config = require('./lib/config.js');

@@ -1,6 +1,6 @@
 {
   "name": "zoo-kernel",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Based on fis-kernel for fis-zoo",
   "main": "zoo-kernel",
   "scripts": {},
